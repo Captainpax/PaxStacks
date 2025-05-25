@@ -40,6 +40,9 @@
     <Reference Include="MelonLoader">
       <HintPath>A:\SteamLibrary\steamapps\common\Schedule I\MelonLoader\net35\MelonLoader.dll</HintPath>
     </Reference>
+    <Reference Include="S1API">
+      <HintPath>..\..\..\SteamLibrary\steamapps\common\Schedule I\Mods\S1API.Mono.MelonLoader.dll</HintPath>
+    </Reference>
     <Reference Include="S1API.Mono.MelonLoader">
       <HintPath>A:\SteamLibrary\steamapps\common\Schedule I\Mods\S1API.Mono.MelonLoader.dll</HintPath>
     </Reference>
@@ -60,9 +63,17 @@
     <Reference Include="UnityEngine.InputLegacyModule">
       <HintPath>A:\SteamLibrary\steamapps\common\Schedule I\Schedule I_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.NVIDIAModule">
+      <HintPath>..\..\..\SteamLibrary\steamapps\common\Schedule I\Schedule I_Data\Managed\UnityEngine.NVIDIAModule.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSocketDotNet">
+      <HintPath>..\..\..\SteamLibrary\steamapps\common\Schedule I\MelonLoader\net35\WebSocketDotNet.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="deaddrop.cs" />
     <Compile Include="Initmain.cs" />
+    <Compile Include="mrstacks.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
